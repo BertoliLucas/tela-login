@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login | Sistema </title>
+
+    <!-- icons font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div id="container" class="container">
+
+        <!-- Tela cadastro -->
+        <div class="form-container sign-up">
+
+            <form action="">
+
+                <h1> Criar Conta </h1>
+
+                <div class="social-icons">
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-microsoft"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-apple"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                </div>
+
+                <span> Ou insira o seu e-mail para Cadastrar. </span>
+
+                <input type="email" placeholder="email@email.com">
+                <input type="text" placeholder="Nome">
+                <input type="password" placeholder="Senha">
+                <input type="number" placeholder="CPF">
+                <input type="date">
+
+                <button> Cadastrar </button>
+
+            </form>
+
+        </div>
+        <!-- Fim Tela Cadastro -->
+
+
+        <!-- Tela de login / acesso -->
+        <div class="form-container sign-in">
+
+            <form action="">
+
+                <h1> Entrar </h1>
+
+                <div class="social-icons">
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-microsoft"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-apple"></i>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                </div>
+
+                <span> Ou insira o seu e-mail para efetuar o Login. </span>
+
+                <input type="email" placeholder="email@email.com">
+                <input type="password" placeholder="Senha">
+
+                <a href="#" target="_blank">
+                    Esqueceu sua Senha?
+                </a>
+
+                <button> Entrar </button>
+
+            </form>
+
+        </div><!-- Fim Tela Login -->
+
+        <!-- Painel -->
+        <div class="toggle-container">
+
+            <div class="toggle">
+
+                <!-- Painel de Entrar -->
+                <div class="toggle-panel toggle-left">
+
+                    <h2> Bem Vindo de Volta! </h2>
+                    <p> Digite os seus dados para Entrar. </p>
+
+                    <button class="hidden" id="login">
+                        Entre
+                    </button>
+
+                </div>
+
+                <!-- Painel de Cadastro -->
+                <div class="toggle-panel toggle-right">
+
+                    <h2> Olá Amigo! </h2>
+                    <p> Cadastre-se com seus dados pessoais para utilizar nossos recursos. </p>
+
+                    <button class="hidden" id="register">
+                        Cadatre-se
+                    </button>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
